@@ -140,7 +140,7 @@ main {
     padding: 30px 150px;
 }
 
-.skills-container {
+.skills-container{
     display: flex;
     gap: 24px;
 }
@@ -188,13 +188,36 @@ margin-bottom: 10px;
 .resume-container hr{
     margin: 30px;
 }
-.download-cv{
-    text-align: center;
+.Download-cv{
+    text-align:center;
     margin-top: 50px;
 }
-.footer{
+
+/* footer styles */
+footer{
     display: flex;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+.contact, input[type="text"], .contact input[typr="email"],
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 100%;
+}
+.footer-colum{
+    width: 50%;
+}
+.social-links a{
+    margin-right: 25px;
 }
